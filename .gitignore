@@ -1,0 +1,17 @@
+# Backend
+sf-assignment-backend/node_modules/
+sf-assignment-backend/.env
+
+# Frontend
+sf-assignment-frontend/node_modules/
+sf-assignment-frontend/dist/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
