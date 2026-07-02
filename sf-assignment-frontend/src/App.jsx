@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import Switch from "./Switch";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://cloudvandana-backend.onrender.com";
 
 function App() {
   const [rules, setRules] = useState([]);

@@ -31,7 +31,7 @@ app.get("/oauth2/callback", async (req, res) => {
     await conn.authorize(code);
     sfConn = conn;
     // Redirecting directly back to your React frontend after successful login
-    res.redirect("http://localhost:5173"); 
+    res.redirect("https://cloudvandana-zeta.vercel.app"); 
   } catch (err) {
     console.error(err);
     res.status(500).send(err.message);
